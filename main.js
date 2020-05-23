@@ -72,6 +72,7 @@ getFirstIpAddress(cidrStr, callback) {
     var obj = {};
     obj["ipv4"] = {};
     obj["ipv6"] = {};
+    var objStr = {};
 
     obj["ipv4"] = firstIpAddress;
     obj["ipv6"] = ipv6;
